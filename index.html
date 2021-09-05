@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendiendo Flexbox</title>
+    <style>
+         .prueba{
+            width: 300px;
+            height: 300px;
+            margin-top: 50px;
+            background: -repeating-radial-gradiente(50% 50% , circle, #000, #00bcd4 2px);
+            background: -webkit-repeating-radial-gradient(50% 50% ,circle, #000,#00BCD4 2px);
+            
+        }
+
+        .container{
+            background-color: #753;
+            display: inline-flex;
+        }
+        .item{
+            background-color: #186;
+            
+        }
+       
+
+    </style>
+</head>
+<body>
+    <section class="prueba">
+        <article>Color stops</article>
+    </section>
+
+    <section class="container">
+    <article class="item">Flex Item1</article>
+    <article class="item">Flex Item2</article>
+    <article class="item">Flex Item3</article>    
+    </section>
+    <section class="container">
+        <article class="item">Flex Item1</article>
+        <article class="item">Flex Item2</article>
+        <article class="item">Flex Item3</article>    
+    </section>
+
+    
+</body>
+</html>
